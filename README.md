@@ -1,7 +1,7 @@
-<p align="center">
-  <h1 align="center">? Antigravity Web DevKit</h1>
+Ôªø<p align="center">
+  <h1 align="center">‚ö° Antigravity Web DevKit</h1>
   <p align="center">
-    <strong>El kit definitivo de Desarrollo Web, DiseÒo UI/UX, Motion Graphics y Senior Engineering para Google Antigravity.</strong>
+    <strong>El kit definitivo de Desarrollo Web, Dise√±o UI/UX, Motion Graphics y Senior Engineering para Google Antigravity.</strong>
   </p>
   <p align="center">
     <img src="https://img.shields.io/badge/Antigravity-Plugin-blue?style=flat-square" alt="Antigravity">
@@ -13,142 +13,135 @@
 
 ---
 
-## ?? øQuÈ es Antigravity Web DevKit?
+## üöÄ ¬øQu√© es Antigravity Web DevKit?
 
-**Antigravity Web DevKit** es un paquete integral y modular que transforma tu agente de **Google Antigravity** en un equipo senior de desarrollo web de Èlite. Re˙ne en un solo repositorio las mejores pr·cticas de la industria:
+**Antigravity Web DevKit** es un paquete integral y modular que transforma tu agente de **Google Antigravity** en un equipo senior de desarrollo web de √©lite. Re√∫ne en un solo repositorio las mejores pr√°cticas de la industria:
 
-1. **Disciplina Senior Dev (Ponytail):** Elimina la sobreingenierÌa, reduce hasta un 53% de cÛdigo superfluo y enfoca los esfuerzos en cobertura de tests y seguridad.
-2. **Video & Motion Graphics desde CÛdigo (HyperFrames):** Renderiza videos, animaciones, overlays y transiciones directamente desde HTML, CSS, timelines y diseÒos de Figma.
-3. **DiseÒo UI/UX de Alta Gama (Emil Kowalski + UIUX Designer Engine):** 50+ estilos visuales, 97 paletas crom·ticas armÛnicas, 57 combinaciones tipogr·ficas y fÌsica de interacciÛn estilo Apple.
-4. **IngenierÌa Frontend y Rendimiento:** Est·ndares de Vercel para React y Next.js (cero cascadas async), Tailwind CSS v4 y arquitectura de APIs limpias.
-5. **Testing Automatizado E2E:** Suites de pruebas con Playwright en navegadores reales y depuraciÛn sistem·tica.
-6. **Conectores MCP Integrados:** Servidores listos para Playwright, Context7 (documentaciÛn en tiempo real), 21st.dev (Magic UI) y Supabase.
+1. **Disciplina Senior Dev (Ponytail):** Elimina la sobreingenier√≠a, reduce hasta un 53% de c√≥digo superfluo y enfoca los esfuerzos en cobertura de tests y seguridad.
+2. **Video & Motion Graphics desde C√≥digo (HyperFrames):** Renderiza videos, animaciones, overlays y transiciones directamente desde HTML, CSS, timelines y dise√±os de Figma.
+3. **Dise√±o UI/UX de Alta Gama (Emil Kowalski + UIUX Designer Engine):** 50+ estilos visuales, 97 paletas crom√°ticas arm√≥nicas, 57 combinaciones tipogr√°ficas y f√≠sica de interacci√≥n estilo Apple.
+4. **Ingenier√≠a Frontend y Rendimiento:** Est√°ndares de Vercel para React y Next.js (cero cascadas async), Tailwind CSS v4 y arquitectura de APIs limpias.
+5. **Testing Automatizado E2E:** Suites de pruebas con Playwright en navegadores reales y depuraci√≥n sistem√°tica.
+6. **Conectores MCP Integrados:** Servidores listos para Playwright, Context7 (documentaci√≥n en tiempo real), 21st.dev (Magic UI) y Supabase.
 
 ---
 
-## ?? InstalaciÛn R·pida
+## üì¶ Instalaci√≥n R√°pida
 
-### OpciÛn 1: InstalaciÛn Global como Plugin (Recomendado)
-Para que todas las habilidades estÈn disponibles en **todos tus proyectos**:
+### Opci√≥n 1: Instalaci√≥n Global como Plugin (Recomendado)
+Para que todas las habilidades est√©n disponibles en **todos tus proyectos**:
 
 #### Windows (PowerShell):
-`powershell
-git clone https://github.com/d3t0unp0/antigravity-web-devkit.git "C:\Users\NGZPA\.gemini\config\plugins\antigravity-web-devkit"
-`
+```powershell
+git clone https://github.com/d3t0unp0/antigravity-web-devkit.git "$env:USERPROFILE\.gemini\config\plugins\antigravity-web-devkit"
+```
 
 #### macOS / Linux:
-`ash
+```bash
 git clone https://github.com/d3t0unp0/antigravity-web-devkit.git ~/.gemini/config/plugins/antigravity-web-devkit
-`
+```
 
 ---
 
-### OpciÛn 2: InstalaciÛn por Proyecto (Carpeta .agents)
-Si solo deseas usar este kit dentro de un repositorio de cÛdigo especÌfico:
+### Opci√≥n 2: Instalaci√≥n por Proyecto (Carpeta `.agents`)
+Si solo deseas usar este kit dentro de un repositorio de c√≥digo espec√≠fico:
 
-`ash
+```bash
 git clone https://github.com/d3t0unp0/antigravity-web-devkit.git .agents
-`
+```
 
 ---
 
-### OpciÛn 3: Mediante el Instalador Interactivo
-Clona el repositorio y ejecuta el instalador que verificar· Node.js y Playwright autom·ticamente:
+### Opci√≥n 3: Mediante el Instalador Interactivo
+Clona el repositorio y ejecuta el instalador que verificar√° Node.js y Playwright autom√°ticamente:
 
 * **Windows:**
-  `powershell
+  ```powershell
   .\install.ps1
-  `
+  ```
 * **macOS / Linux:**
-  `ash
+  ```bash
   chmod +x install.sh
   ./install.sh
-  `
+  ```
 
 ---
 
-## ??? Servidores MCP Soportados
+## üõ†Ô∏è Servidores MCP Soportados
 
-El archivo mcp_config.template.json incluye la configuraciÛn para:
+El archivo `mcp_config.template.json` incluye la configuraci√≥n para:
 
-| Servidor | Comando | FunciÛn |
+| Servidor | Comando | Funci√≥n |
 | :--- | :--- | :--- |
-| **playwright** | 
-px @playwright/mcp@latest --headless | NavegaciÛn autÛnoma, scraping, capturas y testing E2E en Chromium real. |
-| **context7** | 
-px -y @upstash/context7-mcp@latest | Consulta en tiempo real de documentaciÛn oficial de librerÌas modernas. |
-| **21st-mcp** | 
-px -y @21st-dev/magic@latest | B˙squeda y generaciÛn de componentes UI pulidos desde 21st.dev (Magic UI). |
-| **supabase** | 
-px -y @supabase/mcp-server-supabase@latest | GestiÛn de bases de datos, consultas SQL, migraciones y edge functions. |
+| **`playwright`** | `npx @playwright/mcp@latest --headless` | Navegaci√≥n aut√≥noma, scraping, capturas y testing E2E en Chromium real. |
+| **`context7`** | `npx -y @upstash/context7-mcp@latest` | Consulta en tiempo real de documentaci√≥n oficial de librer√≠as modernas. |
+| **`21st-mcp`** | `npx -y @21st-dev/magic@latest` | B√∫squeda y generaci√≥n de componentes UI pulidos desde 21st.dev (Magic UI). |
+| **`supabase`** | `npx -y @supabase/mcp-server-supabase@latest` | Gesti√≥n de bases de datos, consultas SQL, migraciones y edge functions. |
 
-> Para activarlos, copia el contenido de mcp_config.template.json a tu ~/.gemini/config/mcp_config.json e inserta tus claves API si las utilizas.
+> Para activarlos, copia el contenido de `mcp_config.template.json` a tu `~/.gemini/config/mcp_config.json` e inserta tus claves API si las utilizas.
 
 ---
 
-## ?? Cat·logo de Skills Incluidas (38 Habilidades)
+## üìö Cat√°logo de Skills Incluidas (38 Habilidades)
 
-### 1. Disciplina & Calidad de CÛdigo (Ponytail Suite)
-* **ponytail**: Modo senior dev perezoso: la soluciÛn m·s concisa y robusta posible (YAGNI, stdlib primero).
-* **ponytail-review**: AuditorÌa de cÛdigo, PRs y diffs con mentalidad de ingeniero senior.
-* **ponytail-audit**: Escaneo y diagnÛstico de deuda tÈcnica y cÛdigo sobrante.
-* **ponytail-debt**: DetecciÛn de patrones redundantes o malas pr·cticas acumuladas.
-* **ponytail-gain**: MediciÛn de ahorro de complejidad y lÌneas reducidas.
-* **ponytail-help**: GuÌa y comandos r·pidos del modo Ponytail.
+### 1. Disciplina & Calidad de C√≥digo (Ponytail Suite)
+* **`ponytail`**: Modo senior dev perezoso: la soluci√≥n m√°s concisa y robusta posible (YAGNI, stdlib primero).
+* **`ponytail-review`**: Auditor√≠a de c√≥digo, PRs y diffs con mentalidad de ingeniero senior.
+* **`ponytail-audit`**: Escaneo y diagn√≥stico de deuda t√©cnica y c√≥digo sobrante.
+* **`ponytail-debt`**: Detecci√≥n de patrones redundantes o malas pr√°cticas acumuladas.
+* **`ponytail-gain`**: Medici√≥n de ahorro de complejidad y l√≠neas reducidas.
+* **`ponytail-help`**: Gu√≠a y comandos r√°pidos del modo Ponytail.
 
 ### 2. Video & Motion Graphics (HyperFrames Suite)
-* **hyperframes**: Orquestador principal de renderizado de video y animaciÛn desde HTML/CSS.
-* **hyperframes-core**: Contratos DOM, especificaciÛn de atributos data-* y timing.
-* **hyperframes-animation**: AnimaciÛn program·tica basada en timelines y funciones de easing.
-* **hyperframes-keyframes**: Control fino de fotogramas clave y estados reactivos.
-* **hyperframes-studio**: Entorno interactivo de inspecciÛn, notas visuales y preview.
-* **hyperframes-cli**: Herramientas de lÌnea de comandos para compilaciÛn y exportaciÛn.
-* **hyperframes-audio**: SincronizaciÛn de pistas de audio y efectos.
-* **
-emotion-to-hyperframes**: MigraciÛn y portabilidad desde proyectos Remotion a HTML nativo.
-* **motion-graphics**: CreaciÛn de overlays din·micos, tÌtulos y banners animados.
-* **igma**: IntegraciÛn para transformar vectores y frames de Figma en composiciones web animadas.
+* **`hyperframes`**: Orquestador principal de renderizado de video y animaci√≥n desde HTML/CSS.
+* **`hyperframes-core`**: Contratos DOM, especificaci√≥n de atributos `data-*` y timing.
+* **`hyperframes-animation`**: Animaci√≥n program√°tica basada en timelines y funciones de easing.
+* **`hyperframes-keyframes`**: Control fino de fotogramas clave y estados reactivos.
+* **`hyperframes-studio`**: Entorno interactivo de inspecci√≥n, notas visuales y preview.
+* **`hyperframes-cli`**: Herramientas de l√≠nea de comandos para compilaci√≥n y exportaci√≥n.
+* **`hyperframes-audio`**: Sincronizaci√≥n de pistas de audio y efectos.
+* **`remotion-to-hyperframes`**: Migraci√≥n y portabilidad desde proyectos Remotion a HTML nativo.
+* **`motion-graphics`**: Creaci√≥n de overlays din√°micos, t√≠tulos y banners animados.
+* **`figma`**: Integraci√≥n para transformar vectores y frames de Figma en composiciones web animadas.
 
-### 3. IngenierÌa de InteracciÛn & AnimaciÛn (Emil Kowalski)
-* **nimate**: CreaciÛn de animaciones web fluidas desde cero (curvas, fÌsicas, salidas limpias).
-* **nimation-vocabulary**: Glosario inverso para nombrar efectos visuales con terminologÌa tÈcnica precisa.
-* **pple-design**: Principios de diseÒo t·ctil, fÌsica de resortes y materiales de Apple para la web.
-* **sk-sonner**: GuÌa experta para la librerÌa de notificaciones Sonner en React.
-* **emil-design-eng**: FilosofÌa de ingenierÌa de diseÒo y cuidado del microdetalle.
-* **ind-animation-opportunities**: B˙squeda asistida de momentos donde la animaciÛn aporta valor.
-* **improve-animations**: AuditorÌa y plan de mejora de animaciones existentes.
-* **pick-ui-library**: SelecciÛn fundamentada de librerÌas para tareas especÌficas de frontend.
-* **prototype**: GeneraciÛn r·pida de variantes alternativas de un componente UI.
-* **
-eview-animations**: RevisiÛn de cÛdigo de animaciÛn con criterios de alta exigencia.
+### 3. Ingenier√≠a de Interacci√≥n & Animaci√≥n (Emil Kowalski)
+* **`animate`**: Creaci√≥n de animaciones web fluidas desde cero (curvas, f√≠sicas, salidas limpias).
+* **`animation-vocabulary`**: Glosario inverso para nombrar efectos visuales con terminolog√≠a t√©cnica precisa.
+* **`apple-design`**: Principios de dise√±o t√°ctil, f√≠sica de resortes y materiales de Apple para la web.
+* **`ask-sonner`**: Gu√≠a experta para la librer√≠a de notificaciones Sonner en React.
+* **`emil-design-eng`**: Filosof√≠a de ingenier√≠a de dise√±o y cuidado del microdetalle.
+* **`find-animation-opportunities`**: B√∫squeda asistida de momentos donde la animaci√≥n aporta valor.
+* **`improve-animations`**: Auditor√≠a y plan de mejora de animaciones existentes.
+* **`pick-ui-library`**: Selecci√≥n fundamentada de librer√≠as para tareas espec√≠ficas de frontend.
+* **`prototype`**: Generaci√≥n r√°pida de variantes alternativas de un componente UI.
+* **`review-animations`**: Revisi√≥n de c√≥digo de animaci√≥n con criterios de alta exigencia.
 
-### 4. Sistema de DiseÒo UI/UX
-* **uiux-designer**: Motor completo con m·s de 50 estilos visuales, 97 paletas crom·ticas probadas, 57 combinaciones de fuentes y directrices para React, Next.js, Vue, Tailwind, Flutter y SwiftUI.
+### 4. Sistema de Dise√±o UI/UX
+* **`uiux-designer`**: Motor completo con m√°s de 50 estilos visuales, 97 paletas crom√°ticas probadas, 57 combinaciones de fuentes y directrices para React, Next.js, Vue, Tailwind, Flutter y SwiftUI.
 
 ### 5. Desarrollo Web & Rendimiento
-* **
-extjs-react-expert**: OptimizaciÛn de rendimiento Next.js seg˙n est·ndares oficiales de Vercel.
-* **	ailwind-patterns**: Patrones modernos para Tailwind CSS v4 y variables CSS nativas.
-* **rontend-design**: Principios de composiciÛn visual, espaciado armÛnico y tipografÌa.
-* **web-design-guidelines**: AuditorÌa de cumplimiento de est·ndares web y accesibilidad (WCAG).
-* **webapp-testing**: Testing automatizado E2E con Playwright.
-* **performance-profiling**: AuditorÌa Core Web Vitals, mÈtricas de carga y an·lisis de cuellos de botella.
-* **pi-patterns**: Arquitectura y diseÒo de APIs robustas (REST, GraphQL, tRPC).
-* **clean-code**: CÛdigo conciso, legible y sin sobreingenierÌa.
-* **systematic-debugging**: MetodologÌa de depuraciÛn de errores en 4 fases basada en evidencia.
+* **`nextjs-react-expert`**: Optimizaci√≥n de rendimiento Next.js seg√∫n est√°ndares oficiales de Vercel.
+* **`tailwind-patterns`**: Patrones modernos para Tailwind CSS v4 y variables CSS nativas.
+* **`frontend-design`**: Principios de composici√≥n visual, espaciado arm√≥nico y tipograf√≠a.
+* **`web-design-guidelines`**: Auditor√≠a de cumplimiento de est√°ndares web y accesibilidad (WCAG).
+* **`webapp-testing`**: Testing automatizado E2E con Playwright.
+* **`performance-profiling`**: Auditor√≠a Core Web Vitals, m√©tricas de carga y an√°lisis de cuellos de botella.
+* **`api-patterns`**: Arquitectura y dise√±o de APIs robustas (REST, GraphQL, tRPC).
+* **`clean-code`**: C√≥digo conciso, legible y sin sobreingenier√≠a.
+* **`systematic-debugging`**: Metodolog√≠a de depuraci√≥n de errores en 4 fases basada en evidencia.
 
 ---
 
-## ?? Workflows Guiados
+## üéØ Workflows Guiados
 
-Ejecuta flujos paso a paso escribiendo /workflow <nombre>:
-* **ui-ux-pro-max.md**: Flujo completo de diseÒo y pulido visual de componentes.
-* **	est.md**: Protocolo de testing automatizado y verificaciÛn funcional.
-* **debug.md**: LocalizaciÛn sistem·tica de bugs y regresiones.
-* **preview.md**: PrevisualizaciÛn interactiva de interfaces.
+Ejecuta flujos paso a paso escribiendo `/workflow <nombre>`:
+* **`ui-ux-pro-max.md`**: Flujo completo de dise√±o y pulido visual de componentes.
+* **`test.md`**: Protocolo de testing automatizado y verificaci√≥n funcional.
+* **`debug.md`**: Localizaci√≥n sistem√°tica de bugs y regresiones.
+* **`preview.md`**: Previsualizaci√≥n interactiva de interfaces.
 
 ---
 
-## ?? Licencia
+## üìÑ Licencia
 
-Distribuido bajo la Licencia **MIT**. Consulta LICENSE para m·s informaciÛn.
+Distribuido bajo la Licencia **MIT**. Consulta `LICENSE` para m√°s informaci√≥n.
