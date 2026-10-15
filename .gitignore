@@ -1,0 +1,18 @@
+﻿# Environment & credentials
+.env
+.env*.local
+*.local
+credentials.json
+token.json
+
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
